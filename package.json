@@ -1,0 +1,13 @@
+{
+  "name": "civicforge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CivicForge Studio redesign Worker site and API",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

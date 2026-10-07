@@ -1,0 +1,12 @@
+name = "civicforge"
+main = "site.js"
+compatibility_date = "2026-10-01"
+routes = [{ pattern = "simpletickets.xyz", custom_domain = true }]
+
+[[durable_objects.bindings]]
+name = "LINK"
+class_name = "Link"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Link"]
